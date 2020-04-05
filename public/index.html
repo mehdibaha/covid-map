@@ -4,7 +4,8 @@
     <meta charset='utf-8' />
     <title>Covid-19: une histoire positive</title>
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-    <script async defer src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js' onload="initMap()"></script>
+    <script async defer src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
     <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
     <script src="https://unpkg.com/scrollama"></script>
     <style>
@@ -203,7 +204,6 @@ if (footer.innerText.length > 0) {
     story.appendChild(footer);
 }
 
-function initMap() {
 mapboxgl.accessToken = config.accessToken;
 
 const transformRequest = (url) => {
@@ -263,10 +263,16 @@ map.on("load", function() {
 
 // setup resize event
 window.addEventListener('resize', scroller.resize);
-}
 </script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-106331831-2"></script>
 <script>
-<link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css' rel='stylesheet' />
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-106331831-2');
 </script>
+
 </body>
 </html>

@@ -31,8 +31,8 @@ var config = {
             id: '2-world',
             title: `Genèse d'une pandémie inédite`,
             description: `
-                Depuis, ce virus s’est propagé partout dans le monde et a atteint xxx pays. Près de xxx millions de cas contaminés ont été déclarés jusqu’ici et le virus a causé des milliers de morts.
-                Cette crise sanitaire est inédite et son issue est incertaine. Cela nous conduit donc naturellement à suivre l’évolution des seules informations que nous maîtrisons.
+                Depuis, ce virus s’est propagé partout dans le monde et a atteint plus de 180 pays. 1 200 000 personnes ont été touchées et le virus a causé plus 65 000 morts.
+                Cette crise sanitaire est inédite et son issue est incertaine. Cela nous pousse naturellement à suivre l’évolution des seules informations que nous maîtrisons.
                 Pourtant, des femmes et des hommes sont mobilisés depuis le début de cette crise. Ils contribuent aux développement de nouveaux soins, aident les plus vulnérables ou soutiennent ceux qui le peuvent.
                 Cette page a pour vocation de mettre en lumière l’esprit de collaboration et de bravoure dont l’humanité fait pour l’instant preuve.
             `,
