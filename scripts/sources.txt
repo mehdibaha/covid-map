@@ -1,0 +1,9 @@
+2-world
+https://github.com/pomber/covid19
+https://github.com/CSSEGISandData/COVID-19
+
+3-eurasia
+https://www.nytimes.com/2020/03/13/business/masks-china-coronavirus.html
+
+4-europe
+https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&page=1

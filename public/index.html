@@ -90,6 +90,7 @@
             }
         }
         </style>
+        <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/turf/v2.0.0/turf.min.js"></script>
 </head>
 <body>
 
@@ -211,7 +212,7 @@ const transformRequest = (url) => {
     const suffix = hasQuery ? "&pluginName=journalismScrollytelling" : "?pluginName=journalismScrollytelling";	  
     return {
       url: url + suffix
-    }	  
+    }
 }
 
 var map = new mapboxgl.Map({
@@ -250,6 +251,18 @@ map.on("load", function() {
         }
         if (chapter.onChapterEnter.length > 0) {
             chapter.onChapterEnter.forEach(setLayerOpacity);
+        }
+        if (chapter.id === '3-eurasia') {
+            console.log('3-eurasia');
+            var lineString = {'type': 'Feature', 'geometry': {'type': 'LineString', 'coordinates': [[-122.414, 37.776], [-77.032, 38.913]]}}
+            var lineDistance = turf.lineDistance(lineString, 'kilometers');
+            var arc = [];
+            var steps = 10;
+            for (var i = 0; i < lineDistance; i += lineDistance / steps) {
+                var segment = turf.along(lineString, i, 'kilometers');
+                arc.push(segment.geometry.coordinates);
+            }
+            lineString.geometry.coordinates = arc;
         }
     })
     .onStepExit(response => {

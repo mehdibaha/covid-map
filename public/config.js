@@ -1,31 +1,36 @@
 var config = {
-    style: 'mapbox://styles/mapbox/light-v10',
+    style: 'mapbox://styles/mehdibaha/ck8n2wsq20s341iou1e0mixmc',
     accessToken: 'pk.eyJ1IjoibWVoZGliYWhhIiwiYSI6ImNrOGZ3bWdmMDAya24zZm8xbGJkYWw3cXkifQ.fS6Ny7_0bZ7swBKW7rvgEQ',
     showMarkers: false,
     theme: 'light',
     alignment: 'left',
-    title: 'Covid-19: une histoire positive',
-    subtitle: 'Mise en lumière des efforts planétaires pour résoudre une crise mondiale',
+    title: 'Un regard positif sur le Coronavirus',
+    subtitle: 'Récapitulatif des efforts déployés pour résoudre une crise inédite',
     byline: 'Par Mehdi Baha',
-    footer: 'Sources: source citations, etc.',
+    footer: 'Sources: Johns Hopkins University Center, Wikipedia',
     chapters: [
         {
-            id: '1-wuhan',
+            id: '1-china',
             title: `Genèse d'une pandémie inédite`,
             description: `La crise du Coronavirus a commencé en Chine, dans la province de Wuhan. Les premiers cas sont apparus au courant du mois de décembre 2019.`,
             location: {
-                center: [114.27828, 30.57797],
-                zoom: 10.07,
-                pitch: 54.00,
+                center: [99.91774, 31.79711],
+                zoom: 4.08,
+                pitch: 28.00,
                 bearing: 0.00
             },
             onChapterEnter: [
-                // {
-                //     layer: 'layer-name',
-                //     opacity: 1
-                // }
+                {
+                    layer: '2-world-first',
+                    opacity: 0.5,
+                }
             ],
-            onChapterExit: []
+            onChapterExit: [
+                {
+                    layer: '2-world-first',
+                    opacity: 0
+                }
+            ]
         },
         {
             id: '2-world',
@@ -42,15 +47,25 @@ var config = {
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: '2-world-last',
+                    opacity: 0.4
+                }  
+            ],
+            onChapterExit: [
+                {
+                    layer: '2-world-last',
+                    opacity: 0.0
+                }
+            ]
         },
         {
             id: '3-eurasia',
             title: `Des échanges vitaux qui ne cessent de se multiplier`,
             description: `
-               Depuis le début de cette crise, plus de 20 millions de masques ont transité entre l’Europe et l’Asie sous la forme d’aide humanitaire.
-               Les masques forment la majeure partie de ces équipements. A cela on peut rajouter les ventilateurs, et autres équipements médicaux.
+               Depuis le début de cette crise, plus de 20 millions d'équipements médicaux ont transité entre l’Europe et l’Asie sous la forme d’aide humanitaire.
+               Les masques forment la majeure partie de ces équipements. A cela on peut rajouter des ventilateurs, des respirateurs artificiels et des tests de dépistage.
             `,
             location: {
                 center: [56.51245, 40.06483],
