@@ -7,3 +7,15 @@ https://www.nytimes.com/2020/03/13/business/masks-china-coronavirus.html
 
 4-europe
 https://www.clinicaltrialsregister.eu/ctr-search/search?query=covid-19&page=1
+
+5-france
+https://www.leetchi.com/fr/cagnottes?q=covid&p=1
+
+6-france-usa
+https://data.worldbank.org/indicator/SH.MED.NUMW.P3
+
+7-usa
+https://candor.co/hiring-freezes/
+
+8-world
+https://data.worldbank.org/indicator/SH.MED.NUMW.P3

@@ -1,0 +1,931 @@
+amount;number;location1;location2;location3
+1245;18;Hendaye;Nouvelle-Aquitaine;France
+620;9
+1040;3;Nouvelle-Aquitaine;Ladaux;France
+960;24
+6690;136;Centre-Val de Loire;Tours;France
+10;1;Lucciana;Corsica;France
+1134;70;France;Normandie;Saint-Marcel
+1781;46
+765;11
+5080;45;Auvergne-Rhône-Alpes;Veyrier-du-Lac;France
+2172;55;Roanne;Auvergne-Rhone-Alpes;France
+300;12
+25;3
+22;2;Nouvelle-Aquitaine;Aigrefeuille-d'Aunis;France
+100;2;Malville;France;Pays de la Loire
+10;1;France;Le Mans;Pays de la Loire
+10;1;France;Île-de-France;Paris
+3615;40
+2890;70;France;Mulhouse;Grand Est
+475;15;Centre-Val de Loire;Tours;France
+190;4;Le Beausset;Provence-Alpes-Côte d'Azur;France
+310;15;Damery;Grand Est;France
+760;18;France
+2110;50
+1360;23;Strasbourg;Grand Est;France
+1520;84;Hauts-de-France;Marcq-en-Baroeul;France
+305;13
+2410;28;France;Île-de-France;Paris
+110;4;Bourgogne-Franche-Comté;Bavans;France
+18647;297;Bry-sur-Marne;Île-de-France;France
+25;2
+155;10;Nouvelle-Aquitaine;Montussan;France
+240;8;Argenteuil;Île-de-France;France
+1895;38
+420;10;France
+170;7;France;Haguenau;Grand Est
+335;14;France;Île-de-France;Saint-Cloud
+7617;288;Castres;Occitanie;France
+3790;42
+280;10;France
+120;7;France;Auvergne-Rhone-Alpes;Lyon
+100;1;Cavaillon;Provence-Alpes-Côte d'Azur;France
+1141;21;Cavaillon;Provence-Alpes-Côte d'Azur;France
+420;7;France;Île-de-France;Paris
+1270;28;France
+815;25;Auvergne-Rhône-Alpes;Moirans;France
+399;19
+279;15;Saint-Benoit-sur-Seine;Grand Est;France
+905;29;Aurillac;Auvergne-Rhone-Alpes;France
+11985;279;Brest;Bretagne;France
+20;1;Wallonia;Arlon;Belgium
+1182;42;Auvergne-Rhône-Alpes;France;Grenoble
+60;2;Auvergne-Rhone-Alpes;Firminy;France
+2160;52;France;Grand Est;Schiltigheim
+870;30;Redon;Bretagne;France
+495;12
+8615;156;Monticello;Corsica;France
+2910;104;Franconville;Île-de-France;France
+80;3;Cluses;Auvergne-Rhone-Alpes;France
+81;4
+1270;32
+1967;55;Île-de-France;Noisy-le-Grand;France
+1;1;Monaco
+100;1;Bourgogne-Franche-Comte;Louhans;France
+458;8;Angoulême;Nouvelle-Aquitaine;France
+20;1
+15;3
+140;5;France;Île-de-France;Paris
+336;13;Rennes;Bretagne;France
+130;4;Toulon;Provence-Alpes-Côte d'Azur;France
+25130;488;France;Provence-Alpes-Côte d'Azur;Marseille
+455;33;Dieppe;Normandie;France
+95;6;Nouvelle-Aquitaine;Bordeaux;France
+2480;71;France;Mulhouse;Grand Est
+10;1;Cambo-les-Bains;Nouvelle-Aquitaine;France
+225;6
+780;13
+1410;35;France
+450;14;Sartrouville;Île-de-France;France
+240;7;France;Nouvelle-Aquitaine;Pessac
+950;16
+270;12;Watten;Hauts-de-France;France
+180;4
+580;4;Togo
+1295;45;Mont-de-Marsan;Nouvelle-Aquitaine;France
+530;18
+825;29;France;Hauts-de-France;Valenciennes
+560;13
+1;1
+70;2;Île-de-France;Le Blanc-Mesnil;France
+900;20;Les Pavillons-sous-Bois;Île-de-France;France
+250;4;Woippy;Grand Est;France
+900;18
+315;10;Nice;Provence-Alpes-Côte d'Azur;France
+170;5;Charenton-le-Pont;Île-de-France;France
+27;6;Feyzin;Auvergne-Rhone-Alpes;France
+10;1;Carpentras;Provence-Alpes-Côte d'Azur;France
+70;2;Bourg-en-Bresse;Auvergne-Rhône-Alpes;France
+450;16;France;Auvergne-Rhone-Alpes;Lyon
+60;2;Espagne;Communauté de Madrid;Madrid
+2300;55
+4805;110;Lourdes;Occitanie;France
+100;3
+12322;300;Toulouse;Occitanie;France
+230;6
+430;9
+620;24;Sarrebourg;Grand Est;France
+70;2
+690;23
+110;2;France;Île-de-France;Coulommiers
+20;2
+50;2;France;Étaples;Hauts-de-France
+192;4;Sainte-Clotilde;Réunion
+4215;64;Meaux;Île-de-France;France
+40;1
+20;2;France;Auvergne-Rhone-Alpes;Meyzieu
+127;6
+140;8;Auvergne-Rhône-Alpes;Vienne;France
+180;5;France
+100;4;Tchad
+430;13
+15;1;France;Grand Est;Bettancourt-la-Ferrée
+5;1;Vendenheim;Grand Est;France
+650;14;Normandie;France
+10;1;La Courneuve;Île-de-France;France
+2560;45
+50;1
+10;1;France;Île-de-France;Paris
+40;1;France
+38450;1789;Nouvelle-Aquitaine;La Rochelle;France
+221;11;Auvergne-Rhone-Alpes;Villard-Bonnot;France
+4065;91;Metz;Grand Est;France
+120;3;Centre-Val de Loire;Vitry-aux-Loges;France
+100;5;Toulon;Provence-Alpes-Côte d'Azur;France
+50;2;Colombes;Île-de-France;France
+4031;87;France;Nouvelle-Aquitaine;Mimizan
+1380;40
+2810;101;France;Nantes;Pays de la Loire
+767;16
+320;11;Strasbourg;Grand Est;France
+40;1
+1441;33
+80;3;France;Île-de-France;Paris
+1050;22;Centre-Val de Loire;Saint-Amand-Montrond;France
+110;4
+185;6;France;Auvergne-Rhone-Alpes;Montélimar
+40;2;Juvisy-sur-Orge;Île-de-France;France
+4580;74;Auvergne-Rhône-Alpes;Messery;France
+2050;45
+1430;39
+20;1;France
+3863;53
+1;1;Toulon;Provence-Alpes-Côte d'Azur;France
+1265;30
+815;37;Auvergne-Rhône-Alpes;Lussas;France
+1225;14;Auvergne-Rhône-Alpes;Lans-en-Vercors;France
+1940;21;Aix-en-Provence;Provence-Alpes-Côte d'Azur;France
+200;6;France;Nouvelle-Aquitaine;Pessac
+8955;161
+50;1;Auvergne-Rhône-Alpes;Saint-Étienne-sur-Chalaronne;France
+10;1;Wallonia;Verviers;Belgium
+3365;51
+280;9;Vanault-les-Dames;Grand Est;France
+560;13;Reims;Grand Est;France
+788;31
+49;7
+15;1;Belgique
+955;24;Bagneux;Île-de-France;France
+3490;54;Valenton;Île-de-France;France
+280;3
+200;2
+370;10;Occitanie;Nîmes;France
+6030;61;France;Île-de-France;Paris
+470;11;Auvergne-Rhône-Alpes;France;La Verpillière
+270;7;Lens;Hauts-de-France;France
+190;6;Villefranche;Bourgogne-Franche-Comté;France
+1090;20
+30;1
+150;3;Saint-Maur-des-Fossés;Île-de-France;France
+1095;26;Auvergne-Rhone-Alpes;Saint-Genis-Laval;France
+525;24;Kunheim;Grand Est;France
+1435;77
+30;2;Wallonia;Belgium;Grivegnee
+15658;537;France;Île-de-France;Paris
+120;2;Rouen;Normandy;France
+60;3
+350;17
+1150;33;Auvergne-Rhone-Alpes;Échirolles;France
+10230;245
+1061;31;Alfortville;Île-de-France;France
+720;20;France;Île-de-France;Paris
+330;12;Nouvelle-Aquitaine;Bordeaux;France
+80;2;France;Île-de-France;Paris
+160;6;Hauts-de-France;Lille;France
+1420;15
+90;4;Peyriac-de-Mer;Occitanie;France
+810;28;Auvergne-Rhone-Alpes;Saint-Julien-en-Genevois;France
+1100;22
+240;9;Les Clayes-sous-Bois;Île-de-France;France
+7065;205;Toulon;Provence-Alpes-Côte d'Azur;France
+210;13;Goussainville;Île-de-France;France
+22620;45;Nouvelle-Aquitaine;Bordeaux;France
+390;10;Vaud;Suisse;Lausanne
+16162;72
+900;22;France;Nancy;Grand Est
+80;1;Amiens;Hauts-de-France;France
+425;17
+280;10
+1190;31;Metz;Grand Est;France
+180;5;Le Cannet;Provence-Alpes-Côte d'Azur;France
+8510;123
+161;23;Reims;Grand Est;France
+1;1;France;Nantes;Pays de la Loire
+5570;106
+990;12
+525;28
+23755;248;Nouvelle-Aquitaine;France
+780;19;Île-de-France;Pantin;France
+40;1;Mendoza;Argentina
+80;2;Salon-de-Provence;Provence-Alpes-Côte d'Azur;France
+90;3;Montigny-le-Bretonneux;Île-de-France;France
+3400;67;Auvergne-Rhône-Alpes;Charly;France
+669;33
+40;2
+680;51;Quimper;Bretagne;France
+1520;24;France;Nancy;Grand Est
+120;2;France;Grand Est;Schiltigheim
+405;10;Népal
+365;17
+20;1;Sornay;Bourgogne-Franche-Comte;France
+100;2;Saint-Gratien;Île-de-France;France
+1120;3;France;Île-de-France;Paris
+20;1;Montreuil;Île-de-France;France
+440;31;Saint-Max;Grand Est;France
+220;5
+90;2
+11609;100;Morocco;Marrakesh-Safi;Marrakesh
+7300;39
+40;1;France;Île-de-France;Paris
+240;12
+20;1
+10;1
+3170;82;France;Île-de-France;Paris
+1565;33;Mougins;Provence-Alpes-Côte d'Azur;France
+130;4;Garges-lès-Gonesse;Île-de-France;France
+330;12;Bourgogne-Franche-Comté;France
+45;3;France
+140;4;France
+2390;35;Saint-Denis;Réunion
+140;2
+2191;52;Nouvelle-Aquitaine;Libourne;France
+135;7;France
+1350;9;France;Auvergne-Rhone-Alpes;Grenoble
+425;22;Auvergne-Rhône-Alpes;Saint-Haon-le-Vieux;France
+350;7;Villepinte;Île-de-France;France
+40627;694;France;Mulhouse;Grand Est
+80;3;Île-de-France;France
+80;2;France;Nancy;Grand Est
+670;12;Nouvelle-Aquitaine;Libourne;France
+1880;27;France;Varangéville;Grand Est
+10;1;France;Nouvelle-Aquitaine;Fumel
+395;16
+2054;51;France;Nancy;Grand Est
+100;2;Normandie;Cierrey;France
+575;22;Saint-Jean-de-Fos;Occitanie;France
+250;3;Switzerland;Geneva
+3700;97
+5;1;France
+3460;96;Boulogne-Billancourt;Île-de-France;France
+395;25;France
+150;3
+1035;27;France;Île-de-France;Paris
+190;3;Spain
+1160;51
+10;1
+60;4;France;Île-de-France;Paris
+60;2;France;Auvergne-Rhone-Alpes;Grenoble
+2690;62;France;Nouvelle-Aquitaine;Montpouillan
+650;44;France;Île-de-France;Paris
+670;8;Reims;Grand Est;France
+360;6;France;Île-de-France;Paris
+19547;719;Bayonne;Nouvelle-Aquitaine;France
+2750;63;Argenteuil;Île-de-France;France
+120;4;Wallonia;Belgium;Tubize
+1890;35;France;Île-de-France;Paris
+50;5;France
+480;9;Le Perray-en-Yvelines;Île-de-France;France
+475;10;Bénodet;Bretagne;France
+1400;51;Magny-Vernois;Bourgogne-Franche-Comte;France
+50;2;Melun;Île-de-France;France
+540;30;France
+630;3
+220;3;L'Isle-Adam;Île-de-France;France
+6169;101;France;Occitanie;Fonsorbes
+3742;112
+2953;73;Auvergne-Rhône-Alpes;Contamine-sur-Arve;France
+400;7;France;Provence-Alpes-Côte d'Azur;Marseille
+5;1
+20;1;Béziers;Occitanie;France
+840;39;Vernon;Normandy;France
+87;3
+2575;84;France
+7076;190
+500;1;France;Île-de-France;Paris
+3227;87;France;Mulhouse;Grand Est
+255;14
+945;23
+1075;52;Arles;Provence-Alpes-Côte d'Azur;France
+1750;49;Sedan;Grand Est;France
+1977;33;Montpellier;Occitanie;France
+10;1;France;Pays de la Loire
+100;1;Île-de-France;France
+10;1;France;Saint-Nazaire;Pays de la Loire
+60;2;France;Hauts-de-France;Marcelcave
+40;3;France
+8908;80
+250;7;Grostenquin;Grand Est;France
+1747;47;Centre-Val de Loire;Chartres;France
+930;31;Saint-Denis;Réunion
+555;21;France;Île-de-France;Paris
+1520;22;France;Provence-Alpes-Côte d'Azur;Fréjus
+4454;145;France;Grand Est;Hunspach
+310;21
+805;10;Bali;Denpasar;Indonesia
+967;28;France;Auvergne-Rhone-Alpes;Lyon
+1710;32;Auvergne-Rhône-Alpes;Courpière;France
+1275;36;Fort-de-France;Martinique
+295;13;Cannes;Provence-Alpes-Côte d'Azur;France
+82976;3499;Toulouse;Occitanie;France
+2310;59
+100;2;Dijon;Bourgogne-Franche-Comte;France
+945;24
+1920;49;France
+120;4;France;Auvergne-Rhone-Alpes;Lyon
+15;1;France;La Ferté-Bernard;Pays de la Loire
+5;1
+400;4;France;Île-de-France;Paris
+75;3;Herblay;Île-de-France;France
+20470;376
+90;2;France;Bornel;Hauts-de-France
+160;3;Lombez;Occitanie;France
+5130;209;Le Havre;Normandy;France
+500;5
+630;17;Épinay-sur-Seine;Île-de-France;France
+40;1
+20;2
+3410;73;France;Île-de-France;Paris
+1920;60;France;Bretagne;Dinan
+1645;60
+372;9;Puybrun;Occitanie;France
+9397;178;Montfermeil;Île-de-France;France
+445;12
+10;1;Avignon;Provence-Alpes-Côte d'Azur;France
+250;9;France;Île-de-France;Paris
+1665;48;Metz;Grand Est;France
+981;64;France;Île-de-France;Paris
+20;1;France;Île-de-France;Paris
+9200;97;Chastre;Wallonie;Belgique
+40;1;France;La Bassee;Hauts-de-France
+255;14;Toulouse;Occitanie;France
+140;2;France;Île-de-France;Paris
+1510;22;Arlon;Wallonie;Belgique
+325;16;France;Île-de-France;Paris
+3785;116;France;Île-de-France;Paris
+285;6;Beauregard;Occitanie;France
+715;9;Occitanie;France
+8406;128
+220;5;France
+200;9;France;Île-de-France;Paris
+485;21
+1785;59;Centre;Cameroon
+111;13;Île-de-France;France
+1295;19;France;Île-de-France;Paris
+27;7;Île-de-France;Saint-Ouen;France
+70;4;Nouvelle-Aquitaine;Pau;France
+40;1;France;Le Mans;Pays de la Loire
+230;11;France;Île-de-France;Paris
+800;8;France;Île-de-France;Paris
+1170;34;Centre-Val de Loire;Chartres;France
+160;7;France;Normandy;Eu
+400;19;France;Île-de-France;Mantes-la-Jolie
+1730;18
+15366;370;Annemasse;Auvergne-Rhone-Alpes;France
+1165;25;Neuchâtel;Suisse
+440;6;Saint-Denis;Réunion
+2701;63
+1533;22
+570;6;Île-de-France;L'Haÿ-les-Roses;France
+10;1;Hauts-de-France;Lille;France
+261;16;France;Challans;Pays de la Loire
+155;4;France;Île-de-France;Paris
+618;14;Châlons-en-Champagne;Grand Est;France
+20;1;France
+70;4;Malville;France;Pays de la Loire
+12875;400;Auvergne-Rhône-Alpes;Arbent;France
+190;5;France
+3134;71;France;Centre-Val de Loire;Bourges
+41;3;France;Île-de-France;Paris
+6465;86
+3650;82;France;Mulhouse;Grand Est
+20;1;Wallonia;Belgium;Huy
+808;36;France;Île-de-France;Paris
+534;22
+2055;39;Dakar;Senegal
+350;9;Bezons;Île-de-France;France
+765;16;Oyonnax;Auvergne-Rhone-Alpes;France
+60;5;Strasbourg;Grand Est;France
+30;3
+960;23
+320;9;Cormeilles-en-Parisis;Île-de-France;France
+1525;42
+790;33
+100;3;Provence-Alpes-Côte d'Azur;La Seyne-sur-Mer;France
+1280;20;Dakar;Senegal
+2205;144;Villeneuve-lès-Avignon;Occitanie;France
+1;1;Clamart;Île-de-France;France
+1120;26;France;Auvergne-Rhone-Alpes;Lyon
+950;26;Pecq;Wallonie;Belgique
+3395;56
+15;1
+330;16
+80;3;Colombie
+795;39;Nouvelle-Aquitaine;Bordeaux;France
+3;1
+140;11;France;Île-de-France;Paris
+40;1
+175;9;Auvergne-Rhône-Alpes;France;Lyon
+300;9;France;Île-de-France;Paris
+683;21;Port-au-Prince;Haïti;Ouest
+540;13
+53;3;France
+1235;39;France;Île-de-France;Paris
+1;1
+2;1
+6638;154;Reims;Grand Est;France
+60;4;Normandy;Brionne;France
+1285;39
+40;1;Vitry-le-François;Grand Est;France
+2700;33
+30;1;Occitanie;Castelsarrasin;France
+90;5;France;Île-de-France;Paris
+1260;20;France;Île-de-France;Paris
+395;6;Centre-Val de Loire;Tours;France
+50;5
+1225;39;La Chapelle-Saint-Martin-en-Plaine;Centre-Val de Loire;France
+2535;40;Auvergne-Rhône-Alpes;Thonon-les-Bains;France
+90;5
+500;11
+380;25;France;Île-de-France;Ormesson-sur-Marne
+1820;5;Vernon;Normandy;France
+30;1;France
+260;9;Cahors;Occitanie;France
+20;3;Herblay;Île-de-France;France
+465;16
+3692;114;Eaubonne;Île-de-France;France
+1292;95;France;Île-de-France;Paris
+485;12;Pertuis;Provence-Alpes-Côte d'Azur;France
+330;7;Occitanie;Martel;France
+100;4;Togo;Ahépé;Région maritime
+30;2;Autun;Bourgogne-Franche-Comté;France
+1000;20;Troyes;Grand Est;France
+750;17
+1539;34
+100;1;Reims;Grand Est;France
+570;21;Hauts-de-France;Le Quesnoy;France
+695;18;Brittany;Rennes;France
+345;7;Lens;Hauts-de-France;France
+108;6;Auvergne-Rhône-Alpes;France;Lyon
+1;1;Bonneville;Auvergne-Rhone-Alpes;France
+1440;18;France;Occitanie;Samatan
+260;5;Annecy;Auvergne-Rhône-Alpes;France
+1740;31;Verdun;Grand Est;France
+1012;19;France;Île-de-France;Paris
+100;1;Palaiseau;Île-de-France;France
+190;4;Cergy;Île-de-France;France
+450;12;Vincennes;Île-de-France;France
+1361;97;Herlies;Hauts-de-France;France
+585;19;France;Île-de-France;Mantes-la-Jolie
+190;5;Auvergne-Rhone-Alpes;Irigny;France
+20;1;Cagnes-sur-Mer;Provence-Alpes-Côte d'Azur;France
+25112;865;France;Rethel;Grand Est
+120;2;Villeneuve-le-Roi;Île-de-France;France
+260;5
+2270;41;Brittany;Sulniac;France
+8440;54
+120;7;Poitiers;Nouvelle-Aquitaine;France
+950;13;Toulon;Provence-Alpes-Côte d'Azur;France
+601;7;France;Provence-Alpes-Côte d'Azur;Marseille
+230;3
+50;4
+10740;295
+1036;27;Hauts-de-France;Lille;France
+375;5;France;Île-de-France;Paris
+280;11;France;Île-de-France;Paris
+2025;62;Bruxelles;Saint-Josse-ten-Noode;Belgique
+3;1
+355;24
+50;1;Dakar;Senegal
+9210;98
+210;7
+4795;47;Chevilly-Larue;Île-de-France;France
+220;5
+1845;46;Die;Auvergne-Rhone-Alpes;France
+330;4;Auvergne-Rhone-Alpes;Voiron;France
+5750;153;Saint-Dizier;Grand Est;France
+650;13;Saint-Denis;Île-de-France;France
+7879;232;Meaux;Île-de-France;France
+2767;77
+572;52;France;Auvergne-Rhone-Alpes;Lyon
+832;17
+440;5
+120;3
+2860;49;Nice;Provence-Alpes-Côte d'Azur;France
+425;13;France;Île-de-France;Paris
+2275;27;Île-de-France;Rosny-sous-Bois;France
+40;1;Côte d'Ivoire;District Autonome d'Abidjan;Abidjan
+450;12
+1605;37;France;Grand Est;Void-Vacon
+279;37;Occitanie;Nîmes;France
+795;25
+20;1
+1280;30;Senlis;Hauts-de-France;France
+2260;66
+65;4;Aureilhan;Nouvelle-Aquitaine;France
+1663;57;Douvrend;Normandie;France
+440;13;France;Provence-Alpes-Côte d'Azur;Saint-Rémy-de-Provence
+1190;40
+2165;67;Brive-la-Gaillarde;Nouvelle-Aquitaine;France
+800;19
+4125;80;Choisy-le-Roi;Île-de-France;France
+8210;149;Le Chesnay;Île-de-France;France
+160;5;France;Île-de-France;Paris
+9963;138;Troyes;Grand Est;France
+250;9
+290;18;France;Wissembourg;Grand Est
+3960;57;Normandy;Mezidon-Canon;France
+620;9;Hyères;Provence-Alpes-Côte d'Azur;France
+520;21;Montpellier;Occitanie;France
+1165;29
+960;28;Sainte-Marie;Réunion;[no name]
+330;13;Fort-de-France;Martinique
+62886;1394;Strasbourg;Grand Est;France
+1560;28;Neuchâtel;Suisse
+100;8;Raimbeaucourt;Hauts-de-France;France
+220;7;Crest;Auvergne-Rhône-Alpes;France
+1030;35;Corse;Olmeta-di-Tuda;France
+50;3;Saint-Laurent-Medoc;Nouvelle-Aquitaine;France
+2876;63;Nice;Provence-Alpes-Côte d'Azur;France
+330;7;France;Auvergne-Rhone-Alpes;Lyon
+335;7
+1610;49
+2080;50
+1850;43;Auvergne-Rhône-Alpes;France
+1855;31
+265;7;France;Île-de-France;Paris
+7523;22;Bruxelles;Woluwe-Saint-Lambert;Belgique
+2200;36;Lézinnes;Bourgogne-Franche-Comté;France
+160;5;France
+3070;91;Nouvelle-Aquitaine;Bordeaux;France
+635;18
+1245;26;Pierrefitte-sur-Seine;Île-de-France;France
+570;5;France;Auvergne-Rhone-Alpes;Lyon
+2672;55;France;Île-de-France;Paris
+1615;42
+450;12;Portet-sur-Garonne;Occitanie;France
+5;1
+30;1;France;Île-de-France;Paris
+365;13;Saint-Lys;Occitanie;France
+3407;98;France;Île-de-France;Paris
+320;10
+840;24
+20;2;Hauts-de-France;Rang-du-Fliers;France
+5;1;Tarascon-sur-Ariege;Occitanie;France
+5;1
+1420;30;Occitanie;Nîmes;France
+550;11;Nanterre;Île-de-France;France
+1;1
+125;4
+30;2;Nouvelle-Aquitaine;Bordeaux;France
+6970;162;Occitanie;Sussargues;France
+270;9;France;Grand Est;Charleville-Mézières
+140;4
+225;5;Dakar;Senegal
+40;2;France;Auvergne-Rhone-Alpes;Lyon
+800;10Participaciones;France;Île-de-France;Paris
+680;11;France;Île-de-France;Paris
+200;6;Côte d'Ivoire;District Autonome d'Abidjan;Abidjan
+945;42;Compiègne;Hauts-de-France;France
+30;1;Auvergne-Rhone-Alpes;Crolles;France
+4650;100
+210;9;France
+90;5;Brittany;Rennes;France
+10;2;France;Île-de-France;Paris
+580;23;Amiens;Hauts-de-France;France
+370;12;France;Provence-Alpes-Côte d'Azur;Marseille
+2880;56;Boulogne-Billancourt;Île-de-France;France
+4810;57;Corse;Bonifacio;France
+250;7;Provence-Alpes-Côte d'Azur;Allauch;France
+230;9;Épernay;Grand Est;France
+6601;129;Strasbourg;Grand Est;France
+680;9
+8;2;Île-de-France;France
+710;15;Bourgogne-Franche-Comté;Valentigney;France
+352;20;Melun;Île-de-France;France
+155;10;Auvergne-Rhône-Alpes;Clermont-Ferrand;France
+1247;39;Amiens;Hauts-de-France;France
+50;5;France
+320;12;Nouvelle-Aquitaine;Périgueux;France
+70;5;France;Brittany;Lamballe
+2631;36
+1280;26;Bruxelles;Molenbeek-Saint-Jean;Belgique
+780;30;France;Nouvelle-Aquitaine;Grand Poitiers
+261;16;France;Provence-Alpes-Côte d'Azur;Chateauneuf-les-Martigues
+405;14;Rimini;Italie;Emilia-Romagna
+35;3
+3075;67;Auvergne-Rhône-Alpes;Courpière;France
+27529;607;Clermont-Ferrand;Auvergne-Rhone-Alpes;France
+4170;24;Ecuador;Quito;Provincia de Pichincha
+855;27;Auvergne-Rhône-Alpes;Saint-Laurent-du-Pont;France
+80;3;Île-de-France;Viry-Châtillon;France
+470;23
+190;13;Wallonia;Belgium;Binche
+290;10;France;Mortagne-sur-Sèvre;Pays de la Loire
+165;7;Nouvelle-Aquitaine;Bordeaux;France
+293;22;Espagne;Îles Canaries;Adeje
+250;7
+8590;171
+300;7;Hésingue;Grand Est;France
+19098;206;France;Île-de-France;Paris
+5835;87;Castanet-Tolosan;Occitanie;France
+680;16;Brussels;Belgium;Brussels Capital
+822;33;France;Grand Est;Saint-Brice-Courcelles
+35;3
+8615;164;France;Nancy;Grand Est
+450;9;Brussels;Belgium;Brussels Capital
+590;10
+800;29;France;Provence-Alpes-Côte d'Azur;Fréjus
+38;5
+3036;110;Île-de-France;Nemours;France
+20;1;Auvergne-Rhone-Alpes;Chambéry;France
+10;1;France;Provence-Alpes-Côte d'Azur;Marseille
+700;38;France;Auvergne-Rhone-Alpes;Lyon
+280;11
+250;2;France;Île-de-France;Montigny-les-Cormeilles
+230;9;Toulouse;Occitanie;France
+725;25
+1761;46
+2216;52;Auvergne-Rhône-Alpes;Contamine-sur-Arve;France
+150;3
+185;8
+2595;74;Besançon;Bourgogne-Franche-Comté;France
+55;3;Mons;Wallonie;Belgique
+1120;38;France;Angers;Pays de la Loire
+1125;30
+650;9;France;Nouvelle-Aquitaine;Dussac
+40;2
+285;16
+2485;74;La Ciotat;Provence-Alpes-Côte d'Azur;France
+20;1;France;Île-de-France;Mantes-la-Jolie
+83;9;Barranquilla;Colombia;Atlántico
+225;15;Perpignan;Occitanie;France
+895;24
+535;3;Grand Est;France
+440;15;Auvergne-Rhone-Alpes;Volvic;France
+295;15;France;Île-de-France;Paris
+1385;30;France;Île-de-France;Paris
+1550;61;Auvergne-Rhône-Alpes;Saint-Étienne;France
+590;16;France;Nancy;Grand Est
+230;5;France;Le Mans;Pays de la Loire
+50;1;Forbach;Grand Est;France
+20;1;Lunéville;Grand Est;France
+4220;142;Charenton-le-Pont;Île-de-France;France
+205;9
+478;27
+50;3;Mayotte;Dzoumonye
+95;5
+1478;52;Thailand;Phrae
+990;11;Perpignan;Occitanie;France
+100;1;Morocco;Marrakesh-Safi;Marrakesh
+170;3;Senlis;Hauts-de-France;France
+130;4;Sarreguemines;Grand Est;France
+160;4;France
+180;8;France;Île-de-France;Paris
+1925;51;France;Île-de-France;Paris
+215;10;France;Haguenau;Grand Est
+1110;34;France;Nantes;Pays de la Loire
+550;6;Toulouse;Occitanie;France
+75;6
+4147;52
+290;14;Bures-sur-Yvette;Île-de-France;France
+130;4;Dieppe;Normandie;France
+733;14
+160;3
+171;10;Cergy;Île-de-France;France
+2998;68;France;Auvergne-Rhone-Alpes;Meyzieu
+805;17
+180;8;Saint-Denis;Réunion
+485;24;Montpellier;Occitanie;France
+100;3;Ermont;Île-de-France;France
+60;2;Nouvelle-Aquitaine;Biarritz;France
+800;37
+20;1;Chelles;Île-de-France;France
+150;8;Riedisheim;Grand Est;France
+30;1;Meaux;Île-de-France;France
+126;11;France
+538;17;Odratzheim;Grand Est;France
+495;24
+45;2;France;Île-de-France;Paris
+30;1;France;Nantes;Pays de la Loire
+70;2
+5;1
+628;36;Normandie;Caen;France
+2;1;Île-de-France;France
+4703;237
+62590;1310;Corse;Ajaccio;France
+560;16;Rungis;Île-de-France;France
+50;2;France;Île-de-France;Paris
+56;1;France;Île-de-France;Paris
+1052;20;Hauts-de-France;Lille;France
+4281;121
+10;1;France
+3535;42
+1478;21;France;Île-de-France;Paris
+1420;12
+50;2
+2127;32
+1127;36;Couches;Bourgogne-Franche-Comte;France
+130;8;France
+50;3
+25;2;France
+1040;17;Saint-Maur-des-Fossés;Île-de-France;France
+10;1;France;Hauts-de-France;Walincourt-Selvigny
+60;2
+10;1;France;Île-de-France;Paris
+450;6
+1970;49;Provence-Alpes-Côte d'Azur;Grasse;France
+60;2;Brittany;Rennes;France
+810;8
+2020;31;Menton;Provence-Alpes-Côte d'Azur;France
+2390;48
+10;1;Grand Est;France
+355;12;Auvergne-Rhône-Alpes;France;Lyon
+10;1
+2670;51;Bourgogne-Franche-Comté;Mâcon;France
+490;14Participaciones;Saint-Maur-des-Fossés;Île-de-France;France
+1;1
+140;7;Figeac;Occitanie;France
+1180;7;Chaville;Île-de-France;France
+10;2;Villedoux;Nouvelle-Aquitaine;France
+9945;161;Auvergne-Rhône-Alpes;Rillieux-la-Pape;France
+11;2;Béziers;Occitanie;France
+980;26;Île-de-France;Viry-Châtillon;France
+1150;19;Annemasse;Auvergne-Rhône-Alpes;France
+210;9;Bourgogne-Franche-Comte;Mâcon;France
+15;1
+1560;28
+30;1;Moyeuvre-Grande;Grand Est;France
+4010;92;Guadeloupe;Les Abymes
+290;10;Nouvelle-Aquitaine;Mignaloux-Beauvoir;France
+60;3;Besançon;Bourgogne-Franche-Comte;France
+4;1;Brittany;Rennes;France
+19360;314;Auvergne-Rhone-Alpes;Poisy;France
+1313;46
+1195;23;France;Île-de-France;Paris
+2645;33;Épernay;Grand Est;France
+25;2;Switzerland;Geneva
+10;1;Cantin;Hauts-de-France;France
+176;15
+125;7;Rennes;Bretagne;France
+1100;17;Auvergne-Rhône-Alpes;France;Saint-Clément-sur-Valsonne
+2000;26;France;Île-de-France;Drancy
+350;11;Fort-de-France;Martinique
+3170;56;Meylan;Auvergne-Rhône-Alpes;France
+8180;67;Colombes;Île-de-France;France
+23650;499;France;La Boissière-du-Doré;Pays de la Loire
+820;21;France;Nancy;Grand Est
+960;28
+710;17;Ris-Orangis;Île-de-France;France
+180;4;Centre-Val de Loire;France
+1160;43
+90;4;Ivory Coast;Abidjan
+900;11
+1;1;Hauts-de-France;Courset;France
+545;19
+20;1;Roanne;Auvergne-Rhone-Alpes;France
+1210;47;Cachan;Île-de-France;France
+1852;86
+240;9;Bruxelles;Ixelles;Belgique
+90;5
+70;2;Riantec;Brittany;France
+3775;68
+590;17;Montenois;Bourgogne-Franche-Comté;France
+560;25;France;Grand Est;Chaumont
+2330;44;Andernos-les-Bains;Nouvelle-Aquitaine;France
+12050;175;France;Île-de-France;Paris
+2040;55
+14067;320;France;Hauts-de-France;Chantilly
+290;3;Blotzheim;Grand Est;France
+20;1;Tupigny;Hauts-de-France;France
+600;13;Pontoise;Île-de-France;France
+430;15;France;Fresnes-sur-Escaut;Hauts-de-France
+80;1;Morocco;Casablanca-Settat;Casablanca
+184;15;Hauts-de-France;Lallaing;France
+770;15;Bruz;Bretagne;France
+2197;166
+275;20
+120;7;France;Île-de-France;Mantes-la-Jolie
+810;17;Auvergne-Rhône-Alpes;France
+350;3;Colombes;Île-de-France;France
+70;2
+1159;25;Cairanne;Provence-Alpes-Côte d'Azur;France
+380;8
+905;32;France;Île-de-France;Paris
+150;1;Ouagadougou;Centre;Burkina Faso
+640;15;France;Île-de-France;Paris
+500;8;France;Île-de-France;Paris
+3120;62;France;Île-de-France;Mantes-la-Jolie
+335;14;Suresnes;Île-de-France;France
+810;28
+300;7;France;Île-de-France;Paris
+300;8;France;Provence-Alpes-Côte d'Azur;Jouques
+1175;36
+280;13;France
+405;9;Île-de-France;Ozoir-la-Ferrière;France
+2276;57;Saint-Denis;Île-de-France;France
+70;3;France
+200;9;Vincennes;Île-de-France;France
+45;3;France;Nancy;Grand Est
+10;1
+1275;32;Drâa-Tafilalet;Tinghir;Maroc
+395;10;Bali;Gianyar;Indonesia
+30;2
+65;4;France
+1160;45;Auvergne-Rhône-Alpes;France;Lyon
+945;9;State of Bahia;Brésil
+2400;72;France;Provence-Alpes-Côte d'Azur;Marseille
+1230;17
+406;9
+1080;21
+1425;51;France
+280;8;Sarcelles;Île-de-France;France
+430;3;Nouvelle-Aquitaine;Bordeaux;France
+160;6;Montreuil;Île-de-France;France
+30;2
+945;41
+970;28;Forbach;Grand Est;France
+2270;23;Montreuil;Île-de-France;France
+69;3;France;Île-de-France;Paris
+372;10
+440;18;France;Île-de-France;Paris
+70;2;France;Provence-Alpes-Côte d'Azur;Marseille
+420;18;France;Provence-Alpes-Côte d'Azur;Martigues
+95;4
+40;4;France;Nantes;Pays de la Loire
+360;8;Bruxelles;Belgique
+6104;169
+230;11;Toulon;Provence-Alpes-Côte d'Azur;France
+2560;4;France;Île-de-France;Paris
+100;8;France;Auvergne-Rhone-Alpes;Lyon
+20;2
+20;2;Lunel;Occitanie;France
+2530;81;France;Auvergne-Rhone-Alpes;Lyon
+70;3;Rieumes;Occitanie;France
+165;6;Auvergne-Rhone-Alpes;Chambéry;France
+390;10;Occitanie;Nîmes;France
+55;5;Normandy;Le Grand-Quevilly;France
+700;9;Vaud;Suisse;Paudex
+10;1
+3775;66
+360;8;Mitry-Mory;Île-de-France;France
+1625;29
+970;13;Colmar;Grand Est;France
+3355;57
+8057;119;Obernai;Grand Est;France
+300;5;France
+1210;37;France;Île-de-France;Paris
+40;4;Amiens;Hauts-de-France;France
+30;1;Savigny-le-Temple;Île-de-France;France
+55;4;France
+200;4
+550;2;Watermael-Boitsfort;Bruxelles;Belgique
+2;2;France;Île-de-France;Paris
+12;2;France;Normandy;Alençon
+390;11;Aix-en-Provence;Provence-Alpes-Côte d'Azur;France
+525;14;Poissy;Île-de-France;France
+85;5;Clamart;Île-de-France;France
+655;12;Mont-de-Marsan;Nouvelle-Aquitaine;France
+619;34;Auvergne-Rhône-Alpes;Voiron;France
+858;27;Centre-Val de Loire;Orléans;France
+550;12
+46;6;Auvergne-Rhone-Alpes;Moidieu;France
+1550;15;France;Île-de-France;Paris
+150;6
+120;3;France;Grand Est;Talange
+378;19;Triel-sur-Seine;Île-de-France;France
+260;13;Toulon;Provence-Alpes-Côte d'Azur;France
+150;5;France
+80;2;Chelles;Île-de-France;France
+2217;16
+1;1;Béziers;Occitanie;France
+1380;44
+160;2
+565;16;Toulouse;Occitanie;France
+16225;212
+125;7;Occitanie;Argeles;France
+3100;40
+530;9;Saint-Maurice;Île-de-France;France
+25063;621;Auvergne-Rhone-Alpes;Montmelian;France
+4187;108;France;Normandy;Vicques
+1320;11;France;Île-de-France;Paris
+160;7;Auvergne-Rhône-Alpes;Saint-Genis-Laval;France
+40;1;Benfeld;Grand Est;France
+600;17;France;Île-de-France;Paris
+5095;162;Occitanie;Narbonne;France
+1460;16
+70;2;Bastia;Corsica;France
+1540;38
+2438;62;Manosque;Provence-Alpes-Côte d'Azur;France
+100;1
+470;6;Île-de-France;Villejuif;France
+10;1;France;Provence-Alpes-Côte d'Azur;Marseille
+290;6;Valbonne;Provence-Alpes-Côte d'Azur;France
+160;4;France;Grand Est;Charleville-Mézières
+1;1;Bourgogne-Franche-Comte;Imphy;France
+8640;229;Centre-Val de Loire;Dreux;France
+20164;602;Toulon;Provence-Alpes-Côte d'Azur;France
+1260;34;Limoges;Nouvelle-Aquitaine;France
+165;7;France;Normandie;La Rivière-Saint-Sauveur
+2040;33
+5;1

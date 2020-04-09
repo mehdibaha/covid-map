@@ -2,7 +2,7 @@ var config = {
     style: 'mapbox://styles/mehdibaha/ck8n2wsq20s341iou1e0mixmc',
     accessToken: 'pk.eyJ1IjoibWVoZGliYWhhIiwiYSI6ImNrOGZ3bWdmMDAya24zZm8xbGJkYWw3cXkifQ.fS6Ny7_0bZ7swBKW7rvgEQ',
     showMarkers: false,
-    theme: 'light',
+    theme: 'dark',
     alignment: 'left',
     title: 'Un regard positif sur le Coronavirus',
     subtitle: 'Récapitulatif des efforts déployés pour résoudre une crise inédite',
@@ -14,8 +14,8 @@ var config = {
             title: `Genèse d'une pandémie inédite`,
             description: `La crise du Coronavirus a commencé en Chine, dans la province de Wuhan. Les premiers cas sont apparus au courant du mois de décembre 2019.`,
             location: {
-                center: [99.91774, 31.79711],
-                zoom: 4.08,
+                center: [83.767, 30.901],
+                zoom: 3.81,
                 pitch: 28.00,
                 bearing: 0.00
             },
@@ -42,8 +42,8 @@ var config = {
                 Cette page a pour vocation de mettre en lumière l’esprit de collaboration et de bravoure dont l’humanité fait pour l’instant preuve.
             `,
             location: {
-                center: [7.52179, 29.70327],
-                zoom: 2.31,
+                center: [-0.109, 20.626],
+                zoom: 2.22,
                 pitch: 0.00,
                 bearing: 0.00
             },
@@ -51,13 +51,21 @@ var config = {
                 {
                     layer: '2-world-last',
                     opacity: 0.4
+                },
+                {
+                    layer: '2-world-last-text',
+                    opacity: 1.0
                 }  
             ],
             onChapterExit: [
                 {
                     layer: '2-world-last',
                     opacity: 0.0
-                }
+                },
+                {
+                    layer: '2-world-last-text',
+                    opacity: 0.0
+                }  
             ]
         },
         {
@@ -68,13 +76,23 @@ var config = {
                Les masques forment la majeure partie de ces équipements. A cela on peut rajouter des ventilateurs, des respirateurs artificiels et des tests de dépistage.
             `,
             location: {
-                center: [56.51245, 40.06483],
-                zoom: 3.31,
+                center: [44.131, 42.510],
+                zoom: 2.91,
                 pitch: 0.00,
                 bearing: 0.00
             },
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: '3-eurasia',
+                    opacity: 0.8
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: '3-eurasia',
+                    opacity: 0.0
+                }
+            ]
         },
         {
             id: '4-europe',
@@ -84,13 +102,23 @@ var config = {
                 En Europe, plus de 400 laboratoires travaillent depuis le début de cette crise pour mettre au point de nouveaux traitements. Plus de 200 articles scientifiques ont été publiés depuis liés au sujet, et leur chiffre ne cesse d’augmenter.
             `,
             location: {
-                center: [6.72523, 43.64259],
-                zoom: 3.54,
-                pitch: 0.00,
-                bearing: -1.63
+                center: [3.477, 48.352],
+                zoom: 3.76,
+                pitch: 28.00,
+                bearing: 0.00
             },
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: '4-europe',
+                    opacity: 0.7
+                }
+            ],
+            onChapterExit: [
+                {
+                    layer: '4-europe',
+                    opacity: 0.0
+                }
+            ]
         },
         {
             id: '5-france',
@@ -102,11 +130,29 @@ var config = {
             location: {
                 center: [2.46526, 46.84656],
                 zoom: 5.41,
-                pitch: 0.00,
+                pitch: 28.00,
                 bearing: 0.00
             },
-            onChapterEnter: [],
-            onChapterExit: []
+            onChapterEnter: [
+                {
+                    layer: '5-france-numbers',
+                    opacity: 0.8
+                },
+                {
+                    layer: '5-france-amounts',
+                    opacity: 0.8
+                }  
+            ],
+            onChapterExit: [
+                {
+                    layer: '5-france-numbers',
+                    opacity: 0.0
+                },
+                {
+                    layer: '5-france-amounts',
+                    opacity: 0.0
+                }  
+            ]
         },
         {
             id: '6-france-usa',
@@ -118,8 +164,8 @@ var config = {
                 Cela est dû aux efforts monumentaux déployés par des organisations et des personnes, pour que l’information circule toujours.
             `,
             location: {
-                center: [-59.49222, 37.11765],
-                zoom: 3.18,
+                center: [-48.098, 39.035],
+                zoom: 3.25,
                 pitch: 12.00,
                 bearing: 0.00
             },
@@ -136,14 +182,14 @@ var config = {
             location: {
                 center: [-97.76231, 35.94771],
                 zoom: 4.35,
-                pitch: 60.00,
+                pitch: 24.00,
                 bearing: 0.00
             },
             onChapterEnter: [],
             onChapterExit: []
         },
         {
-            id: '8-monde',
+            id: '8-world',
             title: 'Un dernier hommage',
             description: `
                 Pour finir, il est important de mettre en lumière le personnel soignant dans le monde entier, qui travaille d’arrache pied pour soigner les plus vulnérables d’entre nous.
@@ -159,7 +205,7 @@ var config = {
             onChapterExit: []
         },
         {
-            id: 'wrap-up',
+            id: '9-wrap-up',
             description: `
                 Merci à tous d’avoir suivi cette visualisation. Si vous l’appréciez, n’hésitez pas à la partager sans modération.
                 Si vous voulez racontez vos propres histoires avec un format similaire, n’hésitez pas à me contacter (elmehdi.baha@gmail.com) pour en savoir + sur comment ces visualisations sont construites.

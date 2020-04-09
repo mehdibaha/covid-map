@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Covid-19: une histoire positive</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+</head>
+<body>
+<script src="https://unpkg.com/papaparse@5.2.0/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@turf/turf@5/turf.min.js"></script>
+<script>
+
+
+var csv = `orig;dest;amount;type;origin_long;origin_lat;dest_long;dest_lat;
+;China;56000000;respirators_masks;;;;
+;China;20000000;respirators_masks;;;;
+Honeywell;China;500000;respirator_masks;-75.9375;39.367158;114.297691;30.596069
+3M;China;3000000;respirator_masks;-75.9375;39.367158;114.297691;30.596069
+Bristol Myers Squibb;China;220000;respirator_masks;-75.9375;39.367158;114.297691;30.596069
+China;Iran;250000;masks;53;32;114.297691;30.596069
+China;Philippines;200000;masks;;;;
+China;South Korea;5000000;masks;;;;
+China;Italy;100000;respirators;;;;
+China;Italy;2000000;respirators;;;;`
+
+
+var csvParsed = Papa.parse(csv);
+var allCoordinates = csvParsed.data;
+var lineStrings = [];
+console.log(allCoordinates.length);
+for (var i = 2; i < allCoordinates.length; i++) {
+    var coordinates = allCoordinates[i];
+    if (!coordinates[4] || !coordinates[5] || !coordinates[6] || !coordinates[7]) {
+        continue;
+    }
+    console.log([parseFloat(coordinates[4]), parseFloat(coordinates[5])], [parseFloat(coordinates[6]), parseFloat(coordinates[7])]);
+    var lineString = turf.greatCircle(
+        [parseFloat(coordinates[4]), parseFloat(coordinates[5])],
+        [parseFloat(coordinates[6]), parseFloat(coordinates[7])]
+    );
+    console.log("lineString", lineString);
+    lineStrings.push(lineString);
+}
+var geojson = {type: "FeatureCollection", features: lineStrings};
+console.log(JSON.stringify(geojson));
+</script>
+</body>
+</html>

@@ -34,7 +34,7 @@
   { "name": "Central African Republic", "lat": 7, "long": 21 },
   { "name": "Chad", "lat": 15, "long": 19 },
   { "name": "Chile", "lat": -30, "long": -71 },
-  { "name": "China", "lat": 30, "long": 114 },
+  { "name": "China", "lat": 30.596069, "long": 114.297691 },
   { "name": "Colombia", "lat": 4, "long": 72 },
   { "name": "Comoros", "lat": -12.166667, "long": 44.25 },
   { "name": "Congo", "lat": -1, "long": 15 },

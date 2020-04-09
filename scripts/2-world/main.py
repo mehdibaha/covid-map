@@ -10,11 +10,10 @@ output = {"type":"FeatureCollection","features":[]}
 for c in countries:
     cc = {"type": "Feature", "id": c["name"], "geometry": {"type": "Point", "coordinates": [c["long"], c["lat"]]}, "properties": {}}
     try:
-        #print(cc["id"])
         cvd = timeseries[cc["id"]]
         first, last = 0, len(cvd)-1
-        cc["properties"]["first"] = cvd[first]["confirmed"]+cvd[first]["recovered"]
-        cc["properties"]["last"] = cvd[last]["confirmed"]+cvd[last]["recovered"]
+        cc["properties"]["first"] = cvd[first]["confirmed"]
+        cc["properties"]["last"] = cvd[last]["confirmed"]
         print(cc["id"], ";", cc["properties"]["first"], ";", cc["properties"]["last"])
         output["features"].append(cc)
     except:
