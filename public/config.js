@@ -7,7 +7,7 @@ var config = {
     title: 'Un regard positif sur le Coronavirus',
     subtitle: 'ou la map des bonnes nouvelles 🙂',
     byline: 'Par Mehdi Baha',
-    footer: `Pour accéder aux sources, c'est par ici: https://github.com/mehdibaha/covid-map/blob/master/sources.md`,
+    footer: `Pour accéder aux sources, c'est par ici: https://github.com/mehdibaha/covid-map`,
     colors: {'2-world': '#f7952e', '3-eurasia': '#ff4d88'},
     chapters: [
         {
