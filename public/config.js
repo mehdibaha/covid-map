@@ -41,7 +41,7 @@ var config = {
             id: '2-world',
             title: `Genèse d'une pandémie inédite`,
             description: `
-                Depuis, ce virus s’est propagé dans plus de 180 pays dans le monde. <span style="font-weight:700;color:#f7952e">Plus d'1,6M de personnes ont été touchées et le virus a causé plus 96 000 morts.</span><br>
+                Depuis, ce virus s’est propagé dans plus de 180 pays dans le monde. <span style="font-weight:700;color:#f7952e">Plus d'1,6M de personnes ont été touchées et le virus a causé plus de 96 000 morts.</span><br>
                 Pourtant, depuis le début de cette crise, des efforts collectifs collossaux ont été déployés.<br><b>Cette page a pour but de mettre en lumière ces actions positives.</b>
             `,
             location: {
@@ -199,7 +199,7 @@ var config = {
             title: 'Un grand merci',
             description: `
                 Pour finir, il est important de mettre en lumière le personnel soignant.<br>
-                Ils sont <span style="font-weight:700;color:#6a57ff">40 millions de médecins</span> et <span style="font-weight:700;color:#ff8fff">infirmiers</span> dans le monde à travailler d’arrache-pied pour soigner les plus vulnérables d’entre nous.
+                Ils sont plus de <span style="font-weight:700;color:#6a57ff">10 millions de médecins</span> et <span style="font-weight:700;color:#ff8fff">25 millions d'infirmiers</span> dans le monde à travailler d’arrache-pied pour soigner les plus vulnérables d’entre nous.
             `,
             location: {
                 center: [18.26332, 5.86677],
