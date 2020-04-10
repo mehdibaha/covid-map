@@ -50,4 +50,4 @@ https://data.worldbank.org/indicator/SH.MED.NUMW.P3
 
 * [Mapbox](https://www.mapbox.com/) for offering me generously 6-month of non-profit credits (huge!)
 * [SerpApi](https://serpapi.com) for offering me credits to use freely their awesome API (it is.)
-* All people who produced by one or the other, helped produce the data I used :)
+* All people who helped produde the data by one way or the other :)
