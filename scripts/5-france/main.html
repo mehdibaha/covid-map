@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Covid-19: une histoire positive</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+</head>
+<body>
+<script src="https://unpkg.com/papaparse@5.2.0/papaparse.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/turf@7.0.0-alpha.1/dist/turf.min.js"></script>
+<script src="./locations.csv.js"></script>
+<script src="./regions.geojson.js"></script>
+<script>
+var csvParsed = Papa.parse(locations);
+var locations = csvParsed.data;
+
+var points = []
+for (var i = 1; i < locations.length; i++) {
+    var amount = locations[i][1];
+    points.push(turf.point([locations[i][3], locations[i][4]]));
+}
+
+var searchWithin = [];
+for (var j = 0; j < regions.features.length; j++ ) {
+    searchWithin.push(turf.multiPolygon(regions.features[j]['geometry']['coordinates']));
+}
+console.log(points, searchWithin);
+var ptsWithin = turf.pointsWithinPolygon(points, searchWithin);
+for (var s = 0; s < searchWithin.length; s++) {
+    var ptsWithin = turf.pointsWithinPolygon(points, searchWithin[s]);
+    console.log(ptsWithin);
+}
+</script>
+</body>
+</html>

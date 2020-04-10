@@ -59,15 +59,16 @@ def geolocate_campaigns():
     with open('campaigns.csv', mode='r') as csv_file:
         csv_reader = list(csv.DictReader(csv_file, delimiter=';'))
     geocoder = Geocoder(access_token='pk.eyJ1IjoibWVoZGliYWhhIiwiYSI6ImNrOGZ3bWdmMDAya24zZm8xbGJkYWw3cXkifQ.fS6Ny7_0bZ7swBKW7rvgEQ')
-    with open('5-france.csv', 'w', newline='') as csvfile:
+    with open('locations.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=';')
         writer.writerow(['id', 'amount', 'number', 'longitude', 'latitude'])
         i = 1
         for row in csv_reader:
             if row.get('location1'):
                 search = f"{row['location1']} {row['location2']} {row['location3']}"
-                response = geocoder.forward(search, country=['fr'], types=['place'], limit=1)
+                response = geocoder.forward(search, country=['fr'], limit=1)
                 geojson = response.geojson()
+                print(geojson)
                 if geojson['features']:
                     writer.writerow([i, row['amount'], row['number'], geojson['features'][0]['center'][0], geojson['features'][0]['center'][1]])
                     i += 1
