@@ -56,9 +56,11 @@ def retrieve_campaigns():
 # retrieve_campaigns(end_page=45) # run once to generate campaigns
        
 def geolocate_campaigns():
+    geocoder = Geocoder(access_token='pk.eyJ1IjoibWVoZGliYWhhIiwiYSI6ImNrOGZ3bWdmMDAya24zZm8xbGJkYWw3cXkifQ.fS6Ny7_0bZ7swBKW7rvgEQ')
+    
     with open('campaigns.csv', mode='r') as csv_file:
         csv_reader = list(csv.DictReader(csv_file, delimiter=';'))
-    geocoder = Geocoder(access_token='pk.eyJ1IjoibWVoZGliYWhhIiwiYSI6ImNrOGZ3bWdmMDAya24zZm8xbGJkYWw3cXkifQ.fS6Ny7_0bZ7swBKW7rvgEQ')
+    
     with open('locations.csv', 'w', newline='') as csvfile:
         writer = csv.writer(csvfile, delimiter=';')
         writer.writerow(['id', 'amount', 'number', 'longitude', 'latitude'])
@@ -73,4 +75,29 @@ def geolocate_campaigns():
                     writer.writerow([i, row['amount'], row['number'], geojson['features'][0]['center'][0], geojson['features'][0]['center'][1]])
                     i += 1
 
-geolocate_campaigns()
+# geolocate_campaigns() # run once to geolocate campaigns
+
+def fill_departments():
+    geocoder = Geocoder(access_token='pk.eyJ1IjoibWVoZGliYWhhIiwiYSI6ImNrOGZ3bWdmMDAya24zZm8xbGJkYWw3cXkifQ.fS6Ny7_0bZ7swBKW7rvgEQ')
+    
+    with open('departments.json') as json_file:
+        departments = json.load(json_file)
+        
+    with open('locations.csv', mode='r') as csv_file:
+        locations = list(csv.DictReader(csv_file, delimiter=';'))
+        
+    for f in departments['features']:
+        f['properties']['amount'] = 0
+
+    for l in locations:
+        response = geocoder.reverse(lon=l['longitude'], lat=l['latitude'], types=['region'], limit=1).geojson()
+        dep_code = response['features'][0]['properties']['short_code'].split('-')[1]
+        match = None
+        for f in departments['features']:
+            if f['properties']['code'] == dep_code:
+                    f['properties']['amount'] += float(l['amount'])
+
+    with open("5-france.json", "w") as write_file:
+        json.dump(departments, write_file)
+    
+fill_departments()

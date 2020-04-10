@@ -11,18 +11,19 @@
 <script>
 
 
-var csv = `orig;dest;amount;type;origin_long;origin_lat;dest_long;dest_lat;
-;China;56000000;respirators_masks;;;;
-;China;20000000;respirators_masks;;;;
-Honeywell;China;500000;respirator_masks;-75.9375;39.367158;114.297691;30.596069
-3M;China;3000000;respirator_masks;-75.9375;39.367158;114.297691;30.596069
-Bristol Myers Squibb;China;220000;respirator_masks;-75.9375;39.367158;114.297691;30.596069
-China;Iran;250000;masks;53;32;114.297691;30.596069
-China;Philippines;200000;masks;;;;
-China;South Korea;5000000;masks;;;;
-China;Italy;100000;respirators;;;;
-China;Italy;2000000;respirators;;;;`
-
+var csv = `orig;dest;amount;type;origin_long;origin_lat;dest_long;dest_lat
+China;Italy;;;114.299752;30.584057;12.56738;41.87194 
+China;Spain;;;114.299752;30.584057;-3.74922;40.46367 
+China;France;;;114.299752;30.584057; 2.21375;46.22764
+China;Combodia;;;114.299752;30.584057;104.99096;12.56568 
+China;Slovakia;;;114.299752;30.584057;19.69902;48.66903 
+China;Greece;;;114.299752;30.584057;21.82431;39.07421 
+China;Lebanon;;;114.299752;30.584057;35.86229;33.85472 
+China;Iran;;;114.299752;30.584057;53.68805;32.42791 
+China;Iraq;;;114.299752;30.584057;43.67929;33.22319 
+China;Palestine;;;114.299752;30.584057;35.23315;31.95216 
+China;Syria;;;114.299752;30.584057;38.99682;34.80207
+China;Afghanistan;;;114.299752;30.584057;67.70995;33.93911`
 
 var csvParsed = Papa.parse(csv);
 var allCoordinates = csvParsed.data;
