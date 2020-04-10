@@ -61,7 +61,3 @@ typings/
 
 # next.js build output
 .next
-
-# development config.js files
-/src/vanilla-js/config.js
-/src/react-js/src/config.js
