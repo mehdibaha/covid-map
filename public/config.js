@@ -7,7 +7,7 @@ var config = {
     title: 'Un regard positif sur le Coronavirus',
     subtitle: 'ou la Map Des Bonnes Nouvelles',
     byline: 'Par Mehdi Baha',
-    footer: 'Sources: Johns Hopkins University Center, Wikipedia',
+    footer: `Pour accéder aux sources, c'est par ici: https://github.com/mehdibaha/covid-map/blob/master/sources.txt`,
     colors: {'2-world': '#f7952e', '3-eurasia': '#ff4d88'},
     chapters: [
         {
@@ -145,7 +145,7 @@ var config = {
             id: '6-france-usa',
             title: `L'information circule toujours grâce à une infrastructure solide`,
             description: `
-                Le confinement généralisé accroit nos besoins en <span style="font-weight:700;color:#873dff">technologies de communication</span>, et met en risque de saturation l’infrastructure existante.
+                Le confinement généralisé accroit nos besoins en <span style="font-weight:700;color:#873dff">technologies de communication</span>, et met en risque de saturation l’infrastructure existante.<br>
                 Pourtant, ce pic de consommation, n’a causé aucun incident technique majeur de nature à compromettre nos services de communications.
                 Cela est dû aux efforts communs d'organisations et des personnes, pour que <span style="font-weight:700;color:#873dff">l’information circule toujours.</span>
             `,
@@ -172,7 +172,7 @@ var config = {
             id: '7-usa',
             title: `Chez les américains, the show must go on`,
             description: `
-                Devant un contexte économique incertain, de nombreuses entreprises ont entrepris de <span style="font-weight:700;color:#ff2e2e">geler leurs recrutements</span>.
+                Devant un contexte économique incertain, de nombreuses entreprises ont entrepris de <span style="font-weight:700;color:#ff2e2e">geler leurs recrutements</span>.<br>
                 Aux Etats-Unis, sur une base de 350 entreprises sondées, plus de 280 sociétés ont décidé de garder <span style="font-weight:700;color:#00d12d">leurs candidatures ouvertes et de maintenir les recrutements</span> malgré ce contexte difficile.
             `,
             location: {
@@ -231,8 +231,9 @@ var config = {
         {
             id: '9-wrap-up',
             description: `
-                Merci d'avoir suivi cette visualisation. Si vous l’appréciez, n’hésitez pas à la partager sans modération.
-                Si vous voulez racontez vos propres histoires avec un format similaire, n’hésitez pas à me contacter (elmehdi.baha@gmail.com) pour en savoir +.
+                Merci d'avoir suivi cette visualisation. Si vous l’appréciez, n’hésitez pas à la partager sans modération.<br>
+                Si vous voulez racontez vos propres histoires avec un format similaire, n’hésitez pas à me contacter (elmehdi.baha@gmail.com) pour en savoir +.<br><br>
+                Un grand merci aussi à Mapbox (https://mapbox.com/) qui m'offre gracieusement les coûts d'hébergements de cette page ainsi que SerpApi (https://serpapi.com) sans qui les données auraient été impossibles à trouver.
             `,
             location: {
                 center: [18.26332, 5.86677],
