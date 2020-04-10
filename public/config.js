@@ -19,9 +19,9 @@ var config = {
             Le marché de Wuhan est suspecté d'être le point de départ de l'épidémie.
             `,
             location: {
-                center: [83.767, 30.901],
-                zoom: 3.81,
-                pitch: 28.00,
+                center: [97.21732, 31.16806],
+                zoom: 4.17,
+                pitch: 26.00,
                 bearing: 0.00
             },
             onChapterEnter: [
@@ -45,20 +45,28 @@ var config = {
                 Pourtant, depuis le début de cette crise, des efforts collectifs collossaux ont été déployés.<br><b>Cette page a pour but de mettre en lumière ces actions positives.</b>
             `,
             location: {
-                center: [-0.109, 20.626],
-                zoom: 2.22,
+                center: [11.59341, 15.90830],
+                zoom: 1.68,
                 pitch: 0.00,
                 bearing: 0.00
             },
             onChapterEnter: [
                 {
                     layer: '2-world-last',
-                    opacity: 0.4
+                    opacity: 0.75
+                },
+                {
+                    layer: '2-world-last-blur',
+                    opacity: 0.75
                 }
             ],
             onChapterExit: [
                 {
                     layer: '2-world-last',
+                    opacity: 0.0
+                },
+                {
+                    layer: '2-world-last-blur',
                     opacity: 0.0
                 }
             ]
@@ -71,9 +79,9 @@ var config = {
                Ces équipements médicaux ont tous transité sous la forme d'aide humanitaire.
             `,
             location: {
-                center: [44.131, 42.510],
-                zoom: 2.91,
-                pitch: 0.00,
+                center: [28.20832, 42.87337],
+                zoom: 2.30,
+                pitch: 21.00,
                 bearing: 0.00
             },
             onChapterEnter: [
@@ -97,9 +105,9 @@ var config = {
                 En Europe, <span style="font-weight:700;color:#808080">plus de 26 essais cliniques</span> ont été mis au point pour rechercher des nouveaux traitements.
             `,
             location: {
-                center: [3.477, 48.352],
-                zoom: 3.76,
-                pitch: 28.00,
+                center: [7.02730,  44.92631],
+                zoom: 4.30,
+                pitch: 21.00,
                 bearing: 0.00
             },
             onChapterEnter: [
@@ -123,9 +131,9 @@ var config = {
                 En France, afin de pallier à ce risque, <span style="font-weight:700;color:#cc00c2">plus de 900 campagnes de financement</span> ont été lancées. Avec pour seul objetif: aider ces établissements à survivre.
             `,
             location: {
-                center: [2.46526, 46.84656],
-                zoom: 5.41,
-                pitch: 28.00,
+                center: [2.30399, 46.19885],
+                zoom: 5.30,
+                pitch: 40.00,
                 bearing: 0.00
             },
             onChapterEnter: [
@@ -150,9 +158,9 @@ var config = {
                 Cela est dû aux efforts communs d'organisations et des personnes, pour que <span style="font-weight:700;color:#873dff">l’information circule toujours.</span>
             `,
             location: {
-                center: [-48.098, 39.035],
-                zoom: 3.25,
-                pitch: 12.00,
+                center: [-58.34023, 41.41125],
+                zoom: 2.95,
+                pitch: 20.00,
                 bearing: 0.00
             },
             onChapterEnter: [
@@ -176,9 +184,9 @@ var config = {
                 Aux Etats-Unis, sur une base de 350 entreprises sondées, plus de 280 sociétés ont décidé de garder <span style="font-weight:700;color:#00d12d">leurs candidatures ouvertes et de maintenir les recrutements</span> malgré ce contexte difficile.
             `,
             location: {
-                center: [-97.76231, 35.94771],
-                zoom: 4.35,
-                pitch: 24.00,
+                center: [-108.18248, 38.50433],
+                zoom: 3.78,
+                pitch: 20.00,
                 bearing: 0.00
             },
             onChapterEnter: [
@@ -202,8 +210,8 @@ var config = {
                 Ils sont plus de <span style="font-weight:700;color:#6a57ff">10 millions de médecins</span> et <span style="font-weight:700;color:#ff8fff">25 millions d'infirmiers</span> dans le monde à travailler d’arrache-pied pour soigner les plus vulnérables d’entre nous.
             `,
             location: {
-                center: [18.26332, 5.86677],
-                zoom: 2.12,
+                center: [11.59341, 15.90830],
+                zoom: 1.68,
                 pitch: 0.00,
                 bearing: 0.00
             },
@@ -225,7 +233,7 @@ var config = {
                 {
                     layer: '8-world-nurses',
                     opacity: 0.0
-                }  
+                }
             ]
         },
         {
@@ -236,8 +244,8 @@ var config = {
                 Un grand merci aussi à Mapbox (https://mapbox.com/) qui m'offre gracieusement les coûts d'hébergements de cette page ainsi que SerpApi (https://serpapi.com) sans qui les données auraient été impossibles à trouver.
             `,
             location: {
-                center: [18.26332, 5.86677],
-                zoom: 2.12,
+                center: [11.59341, 15.90830],
+                zoom: 1.68,
                 pitch: 0.00,
                 bearing: 0.00
             },
