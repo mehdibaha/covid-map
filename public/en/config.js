@@ -4,18 +4,18 @@ var config = {
     showMarkers: false,
     theme: 'light',
     alignment: 'left',
-    title: 'Un regard positif sur le Coronavirus',
-    subtitle: 'ou la map des good news 🙂',
-    byline: 'par Mehdi Baha',
-    footer: `Sources: disponibles en <a href="https://github.com/mehdibaha/covid-map">visitant ce lien</a>`,
+    title: 'Coronavirus: A positive outlook',
+    subtitle: 'also: the good news map 🙂',
+    byline: 'by Mehdi Baha',
+    footer: `Sources: available by <a target="_blank" href="https://github.com/mehdibaha/covid-map">going here</a>`,
     chapters: [
         {
             id: '1-china',
-            title: `Genèse d'une pandémie inédite`,
+            title: `The start of an unprecedented pandemic`,
             description: `
-            Le premier patient présentant des symptômes du <span style="font-weight:700;color:#f7952e">coronavirus est dépisté en Chine</span>, dans la province de Hubei.
-            Il s'agirait d'un homme de 55 ans.<br>Le 17 décembre, Zhang Jixian, un médecin de Hubei, prévient les autorités qu'il ne s'agit pas d'une simple pneumonie atypique.<br>
-            Le marché de Wuhan est suspecté d'être le point de départ de l'épidémie.
+            The first patient with symptoms of <span style="font-weight:700;color:#f7952e">Coronavirus was detected in the Hubei province, China</span>.<br>
+            On December 17, Zhang Jixian, a Hubei doctor, warned the authorities that this was no regular pneumonia.
+            The Wuhan market is suspected to be the starting point of this global pandemic.
             `,
             location: {
                 center: [97.21732, 31.16806],
@@ -38,10 +38,10 @@ var config = {
         },
         {
             id: '2-world',
-            title: `Genèse d'une pandémie inédite`,
+            title: `The start of an unprecedented pandemic`,
             description: `
-                Depuis, ce virus s’est propagé dans plus de 180 pays dans le monde. <span style="font-weight:700;color:#f7952e">Plus d'1,6M de personnes ont été touchées et le virus a causé plus de 96 000 morts.</span><br>
-                Pourtant, depuis le début de cette crise, des efforts collectifs collossaux ont été déployés.<br><b>Cette page a pour but de mettre en lumière ces actions positives.</b>
+                Since then, this virus has spread to more than 180 countries around the world. <span style="font-weight:700;color:#f7952e">More than 1.6M people have been affected and the virus has caused more than 96,000 deaths.</span><br>
+                Yet, since the beginning of this crisis, huge efforts have been made to stop this crisis.<br><b>This page aims to highlight these efforts.</b>
             `,
             location: {
                 center: [11.59341, 15.90830],
@@ -72,10 +72,9 @@ var config = {
         },
         {
             id: '3-eurasia',
-            title: `Des échanges vitaux qui ne cessent d'augmenter`,
+            title: `Crucial exports that continue to increase in number`,
             description: `
-               Près de 2 millions de <span style="font-weight:700;color:#ff4d88">masques de protection</span> et plus de 50.000 <span style="font-weight:700;color:#ff4d88">tests de dépistage</span> ont transité entre l’Europe et l’Asie.
-               Ces équipements médicaux ont tous transité sous la forme d'aide humanitaire.
+            Nearly 2 million <span style="font-weight:700;color:#ff4d88">protective masks</span> and more than 50,000 <span style="font-weight:700;color:#ff4d88">screening tests</span> have transited between Europe and Asia.<br>These medical equipments have all transited in the form of humanitarian aid.
             `,
             location: {
                 center: [28.20832, 42.87337],
@@ -98,10 +97,10 @@ var config = {
         },
         {
             id: '4-europe',
-            title: `Progresser plus vite que le virus ne se propage`,
+            title: `Progressing faster than the virus spreads`,
             description: `
-                Les technologies d’aujourd’hui arrivent à freiner l’avancée de cette pandémie, mais les technologies de demain sont potentiellement les seuls capables de l’arrêter.
-                En Europe, <span style="font-weight:700;color:#808080">plus de 26 essais cliniques</span> ont été mis au point pour rechercher des nouveaux traitements.
+                Today's technologies are able to slow the progress of this pandemic, but tomorrow's technologies may be the only ones capable of stopping it.<br>
+                In Europe, <span style="font-weight:800;color:#808080">more than 26 clinical trials</span> so far have been developed to search for new treatments.
             `,
             location: {
                 center: [7.02730,  44.92631],
@@ -124,10 +123,10 @@ var config = {
         },
         {
             id: '5-france',
-            title: `La France fait preuve de solidarité`,
+            title: `France showing its spirit of solidarity`,
             description: `
-                A cause du confinement, des centaines d’établissements, restaurants, bars, ont vu chacune de leur existence menacée.
-                En France, afin de pallier à ce risque, <span style="font-weight:700;color:#cc00c2">plus de 900 campagnes de financement</span> ont été lancées. Avec pour seul objetif: aider ces établissements à survivre.
+                Due to social isolation, hundreds of establishments, restaurants, bars, have seen their existence threatened.<br>
+                In France, in order to mitigate this risk, <span style="font-weight:700;color:#cc00c2">more than 900 fundraising campaigns</span> have been launched. With the sole aim of helping these establishments to survive.
             `,
             location: {
                 center: [2.30399, 46.19885],
@@ -150,11 +149,11 @@ var config = {
         },
         {
             id: '6-france-usa',
-            title: `L'information circule toujours grâce à une infrastructure solide`,
+            title: `Information continues to flows thanks to a solid infrastructure`,
             description: `
-                Le confinement généralisé accroit nos besoins en <span style="font-weight:700;color:#873dff">technologies de communication</span>, et met en risque de saturation l’infrastructure existante.<br>
-                Pourtant, ce pic de consommation, n’a causé aucun incident technique majeur de nature à compromettre nos services de communications.
-                Cela est dû aux efforts communs d'organisations et des personnes, pour que <span style="font-weight:700;color:#873dff">l’information circule toujours.</span>
+                Widespread social isolation increased our need for <span style="font-weight:700;color:#873dff">communication technologies</span>, and puts the existing infrastructure at risk.<br>
+                However, this consumption spike has not caused any major technical incidents that could have compromisd our communication services.
+                This is thanks to the joint efforts of organizations and individuals who ensure that <span style="font-weight:700;color:#873dff">information can always flow</span>.
             `,
             location: {
                 center: [-58.34023, 41.41125],
@@ -177,10 +176,10 @@ var config = {
         },
         {
             id: '7-usa',
-            title: `Chez les américains, the show must go on`,
+            title: `In the US, business as usual`,
             description: `
-                Devant un contexte économique incertain, de nombreuses entreprises ont entrepris de <span style="font-weight:700;color:#ff2e2e">geler leurs recrutements</span>.<br>
-                Aux Etats-Unis, sur une base de 350 entreprises sondées, plus de 280 sociétés ont décidé de garder <span style="font-weight:700;color:#00d12d">leurs candidatures ouvertes et de maintenir les recrutements</span> malgré ce contexte difficile.
+                Faced with an uncertain economic context, many companies have understanbly chosen to <span style="font-weight:700;color:#ff2e2e">freeze their recruitments</span>.<br>
+                In the United States, based on 350 companies surveyed, more than 280 companies decided to keep <span style="font-weight:700;color:#00d12d">their applications open and to maintain recruitments </span> despite this difficult context.
             `,
             location: {
                 center: [-108.18248, 38.50433],
@@ -205,8 +204,8 @@ var config = {
             id: '8-world',
             title: 'Un grand merci',
             description: `
-                Pour finir, il est important de mettre en lumière le personnel soignant.<br>
-                Ils sont plus de <span style="font-weight:700;color:#6a57ff">10 millions de médecins</span> et <span style="font-weight:700;color:#ff8fff">25 millions d'infirmiers</span> dans le monde à travailler d’arrache-pied pour soigner les plus vulnérables d’entre nous.
+                Finally, it is now important more than ever to thank all caregivers.<br>
+                More than <span style="font-weight:700;color:#6a57ff">10 million doctors</span> and <span style="font-weight:700;color:#ff8fff">25 million nurses</span> around the world are working hard to care for the most vulnerable among us.
             `,
             location: {
                 center: [11.59341, 15.90830],
@@ -238,9 +237,9 @@ var config = {
         {
             id: '9-wrap-up',
             description: `
-                Merci d'avoir suivi cette visualisation. Si vous l’appréciez, n’hésitez pas à la partager sans modération!<br>
-                Si vous voulez racontez vos propres histoires avec un format similaire, n’hésitez pas à me contacter (elmehdi.baha@gmail.com) pour en savoir +.<br><br>
-                Je tiens finalement à remercier <a href="https://mapbox.com/">Mapbox</a> qui m'a gracieusement offert les coûts d'hébergement ainsi que <a href="https://serpapi.com">SerpApi</a> pour le sourcing des données.
+                Thank you for following this visualization.<br><br>If you like it, please feel free to share it !
+                If you want to tell your own stories with a similar format, you can contact me (elmehdi.baha@gmail.com) for more information.<br><br>
+                Finally, I would like to thank <a href="https://mapbox.com/">Mapbox</a> who graciously offered me the hosting costs as well as <a href="https://serpapi.com">SerpApi</a> for helping me find the data I needed.
             `,
             location: {
                 center: [11.59341, 15.90830],
