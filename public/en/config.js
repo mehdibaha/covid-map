@@ -14,6 +14,7 @@ var config = {
             title: `The start of an unprecedented pandemic`,
             description: `
             The first patient with symptoms of <span style="font-weight:700;color:#f7952e">Coronavirus was detected in the Hubei province, China</span>.<br>
+            
             On December 17, Zhang Jixian, a Hubei doctor, warned the authorities that this was no regular pneumonia.
             The Wuhan market is suspected to be the starting point of this global pandemic.
             `,
@@ -41,6 +42,7 @@ var config = {
             title: `The start of an unprecedented pandemic`,
             description: `
                 Since then, this virus has spread to more than 180 countries around the world. <span style="font-weight:700;color:#f7952e">More than 1.6M people have been affected and the virus has caused more than 96,000 deaths.</span><br>
+                
                 Yet, since the beginning of this crisis, huge efforts have been made to stop this crisis.<br><b>This page aims to highlight these efforts.</b>
             `,
             location: {
@@ -74,7 +76,9 @@ var config = {
             id: '3-eurasia',
             title: `Crucial exports that continue to increase in number`,
             description: `
-            Nearly 2 million <span style="font-weight:700;color:#ff4d88">protective masks</span> and more than 50,000 <span style="font-weight:700;color:#ff4d88">screening tests</span> have transited between Europe and Asia.<br>These medical equipments have all transited in the form of humanitarian aid.
+            Nearly 2 million <span style="font-weight:700;color:#ff4d88">protective masks</span> and more than 50,000 <span style="font-weight:700;color:#ff4d88">screening tests</span> have transited between Europe and Asia.<br>
+            
+            These medical equipments have all transited in the form of humanitarian aid.
             `,
             location: {
                 center: [28.20832, 42.87337],
@@ -100,6 +104,7 @@ var config = {
             title: `Progressing faster than the virus spreads`,
             description: `
                 Today's technologies are able to slow the progress of this pandemic, but tomorrow's technologies may be the only ones capable of stopping it.<br>
+                
                 In Europe, <span style="font-weight:800;color:#808080">more than 26 clinical trials</span> so far have been developed to search for new treatments.
             `,
             location: {
@@ -126,6 +131,7 @@ var config = {
             title: `France showing its spirit of solidarity`,
             description: `
                 Due to social isolation, hundreds of establishments, restaurants, bars, have seen their existence threatened.<br>
+                
                 In France, in order to mitigate this risk, <span style="font-weight:700;color:#cc00c2">more than 900 fundraising campaigns</span> have been launched. With the sole aim of helping these establishments to survive.
             `,
             location: {
@@ -152,6 +158,7 @@ var config = {
             title: `Information continues to flows thanks to a solid infrastructure`,
             description: `
                 Widespread social isolation increased our need for <span style="font-weight:700;color:#873dff">communication technologies</span>, and puts the existing infrastructure at risk.<br>
+                
                 However, this consumption spike has not caused any major technical incidents that could have compromisd our communication services.
                 This is thanks to the joint efforts of organizations and individuals who ensure that <span style="font-weight:700;color:#873dff">information can always flow</span>.
             `,
@@ -179,6 +186,7 @@ var config = {
             title: `In the US, business as usual`,
             description: `
                 Faced with an uncertain economic context, many companies have understanbly chosen to <span style="font-weight:700;color:#ff2e2e">freeze their recruitments</span>.<br>
+                
                 In the United States, based on 350 companies surveyed, more than 280 companies decided to keep <span style="font-weight:700;color:#00d12d">their applications open and to maintain recruitments </span> despite this difficult context.
             `,
             location: {
@@ -205,6 +213,7 @@ var config = {
             title: 'Un grand merci',
             description: `
                 Finally, it is now important more than ever to thank all caregivers.<br>
+                
                 More than <span style="font-weight:700;color:#6a57ff">10 million doctors</span> and <span style="font-weight:700;color:#ff8fff">25 million nurses</span> around the world are working hard to care for the most vulnerable among us.
             `,
             location: {
@@ -237,8 +246,12 @@ var config = {
         {
             id: '9-wrap-up',
             description: `
-                Thank you for following this visualization.<br><br>If you like it, please feel free to share it !
+                Thank you for following this visualization.<br><br>
+                
+                If you like it, please feel free to share it !
                 If you want to tell your own stories with a similar format, you can contact me (elmehdi.baha@gmail.com) for more information.<br><br>
+                
+                
                 Finally, I would like to thank <a href="https://mapbox.com/">Mapbox</a> who graciously offered me the hosting costs as well as <a href="https://serpapi.com">SerpApi</a> for helping me find the data I needed.
             `,
             location: {
