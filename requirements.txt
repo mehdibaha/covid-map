@@ -5,6 +5,7 @@ CacheControl==0.12.6
 certifi==2020.4.5.1
 chardet==3.0.4
 docutils==0.15.2
+google-search-results==1.8.0
 idna==2.9
 iso3166==1.0.1
 jmespath==0.9.5
