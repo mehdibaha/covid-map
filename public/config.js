@@ -13,10 +13,10 @@ var config = {
             id: '1-china',
             title: `Genèse d'une pandémie inédite`,
             description: `
-            Le premier patient présentant des symptômes du <span style="font-weight:700;color:#f7952e">coronavirus est dépisté en Chine</span>, dans la province de Hubei.
+            Le premier patient présentant des symptômes du <span style="font-weight:700;color:#f7952e">coronavirus est dépisté en Chine, dans la province de Hubei</span>.
             Il s'agirait d'un homme de 55 ans.<br>
             
-            Le 17 décembre, Zhang Jixian, un médecin de Hubei, prévient les autorités qu'il ne s'agit pas d'une simple pneumonie atypique.<br>
+            Le 17 décembre, Zhang Jixian, un médecin de Hubei, prévient les autorités qu'il ne s'agit pas d'une pneumonie classique.<br>
             
             Le marché de Wuhan est suspecté d'être le point de départ de l'épidémie.
             `,
@@ -76,11 +76,11 @@ var config = {
         },
         {
             id: '3-eurasia',
-            title: `Des échanges vitaux qui ne cessent d'augmenter`,
+            title: `Des échanges vitaux qui ne cessent de croître`,
             description: `
                Près de 2 millions de <span style="font-weight:700;color:#ff4d88">masques de protection</span> et plus de 50.000 <span style="font-weight:700;color:#ff4d88">tests de dépistage</span> ont transité entre l’Europe et l’Asie.<br>
                
-               Ces équipements médicaux ont tous transité sous la forme d'aide humanitaire.
+               Ces équipements médicaux ont transité dans leur totalité sous forme d'aides humanitaires.
             `,
             location: {
                 center: [28.20832, 42.87337],
@@ -132,7 +132,7 @@ var config = {
             id: '5-france',
             title: `La France fait preuve de solidarité`,
             description: `
-                A cause du confinement, des centaines d’établissements, restaurants, bars, ont vu chacune de leur existence menacée.<br>
+                A cause du confinement, des centaines d’établissements (restaurants, bars, clubs de sport) ont vu leur existence, du jour au lendemain, être menacée.<br>
                 
                 En France, afin de pallier à ce risque, <span style="font-weight:700;color:#cc00c2">plus de 900 campagnes de financement</span> ont été lancées. Avec pour seul objetif: aider ces établissements à survivre.
             `,
@@ -162,7 +162,7 @@ var config = {
                 Le confinement généralisé accroit nos besoins en <span style="font-weight:700;color:#873dff">technologies de communication</span>, et met en risque de saturation l’infrastructure existante.<br>
                 
                 Pourtant, ce pic de consommation, n’a causé aucun incident technique majeur de nature à compromettre nos services de communications.
-                Cela est dû aux efforts communs d'organisations et des personnes, pour que <span style="font-weight:700;color:#873dff">l’information circule toujours.</span>
+                Cela est dû aux efforts communs d'organisations et de personnes, pour que <span style="font-weight:700;color:#873dff">l’information circule toujours.</span>
             `,
             location: {
                 center: [-58.34023, 41.41125],
